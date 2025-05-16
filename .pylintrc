@@ -1,0 +1,27 @@
+[MASTER]
+fail-under=4.0
+
+[MESSAGES CONTROL]
+disable = missing-function-docstring,
+        missing-module-docstring,
+        missing-class-docstring,
+        import-outside-toplevel,
+        attribute-defined-outside-init,
+        line-too-long,
+        invalid-str-returned,
+        no-member,
+        unused-argument,
+        redefined-builtin,
+        unused-variable,
+        unused-import,
+        bad-indentation,
+        trailing-whitespace,
+        raise-missing-from,
+        invalid-name,
+        redefined-outer-name,
+        missing-final_newline,
+        ungrouped-imports,
+        unknown-option-value,
+        missing-docstring,
+        line-too-long,
+        consider-using-enumerate

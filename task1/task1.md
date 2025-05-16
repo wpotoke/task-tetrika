@@ -8,7 +8,7 @@
 
 ```python3
 def strict(func):
-    ...
+    def wraper()
 
 
 @strict
