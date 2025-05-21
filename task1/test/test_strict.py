@@ -1,5 +1,5 @@
 import pytest
-from solution.strict_deco import strict
+from task1.solution.strict_deco import strict
 
 # ----------- Примеры функций -----------
 

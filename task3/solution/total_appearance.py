@@ -1,4 +1,4 @@
-from test_appearance.test import tests
+from task3.test.tests import tests
 
 def appearance(intervals: dict[str, list[int]]) -> int:
 
