@@ -1,8 +1,8 @@
 # Tetrika Junior Tasks
 
 ![Python 3.11](https://img.shields.io/badge/python-3.11-blue?logo=python&logoColor=white)
-![BeautifulSoup](https://img.shields.io/badge/beautifulsoup4-supported-yellow?logo=python)
-![Requests](https://img.shields.io/badge/requests-supported-lightgrey?logo=python)
+![BeautifulSoup](https://img.shields.io/badge/beautifulsoup4-4.13.4-yellow?logo=python)
+![Requests](https://img.shields.io/badge/requests-2.32.3-lightgrey?logo=python)
 
 Репозиторий содержит решения трёх технических заданий, выполненных в рамках отбора на стажировку/позицию Junior Python Developer.
 
@@ -67,8 +67,18 @@ python -m pytest task3/test/test_appearance.py
 ## Установка
 
 ```bash
+# Клонируй проект
 git clone https://github.com/wpotoke/tetrika-junior.git
+
+# Перейди в папку
 cd tetrika-junior
+
+# Создай и активируй виртуальное окружение
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Установи зависимости
+pip install -r requirements.txt
 ```
 
 ## Автор
